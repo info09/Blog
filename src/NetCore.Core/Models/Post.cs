@@ -1,4 +1,5 @@
 ﻿using Abp.Domain.Entities;
+using Abp.Timing;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -25,7 +26,7 @@ namespace NetCore.Models
         [StringLength(1000)]
         public string Content { get; set; }
 
-        public string Status { get; set; }
+        public PostState Status { get; set; } // 0-Published, 1-Draft, 2-Private
 
         public DateTime PublishedTime { get; set; }
 
@@ -35,5 +36,18 @@ namespace NetCore.Models
         //public virtual PostCategory PostCategories { get; set; }
 
         public List<Comment> Comments { get; set; }
+
+        public Post()
+        {
+            PublishedTime = Clock.Now;
+            //Status = PostState.Published;
+        }
+    }
+
+    public enum PostState : byte
+    {
+        Published=0,
+        Draft=1,
+        Private=2
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
+using NetCore.Models;
 using NetCore.Module.Comment.Dto;
 using System;
 using System.Collections.Generic;

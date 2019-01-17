@@ -1,4 +1,5 @@
 ﻿using Abp.AutoMapper;
+using NetCore.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -24,7 +25,9 @@ namespace NetCore.Module.Post.Dto
 
         [StringLength(1000)]
         public string Content { get; set; }
-        
+
+        public PostState Status { get; set; }
+
         public int PostCategoryId { get; set; }
         
     }

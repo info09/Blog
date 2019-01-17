@@ -34,6 +34,13 @@ namespace NetCore.Controllers
             return Ok(cmt);
         }
 
+        [HttpGet,Route("GetByPostId")]
+        public IActionResult GetByPostId(int id)
+        {
+            var cmt = _commentAppService.GetByPostId(id);
+            return Ok(cmt);
+        }
+
         [HttpPost,Route("Create")]
         public IActionResult Create([FromBody]CommentCreate input)
         {
@@ -42,7 +49,7 @@ namespace NetCore.Controllers
         }
 
         [HttpPut, Route("Update")]
-        public IActionResult Update(CommentUpdate input)
+        public IActionResult Update([FromBody]CommentUpdate input)
         {
             var cmt = _commentAppService.Update(input);
             return Ok();

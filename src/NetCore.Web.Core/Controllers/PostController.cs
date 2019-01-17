@@ -33,17 +33,24 @@ namespace NetCore.Controllers
         }
 
         [HttpPost,Route("Create")]
-        public IActionResult Create(PostCreate input)
+        public IActionResult Create([FromBody]PostCreate input)
         {
             var post = _postAppService.Create(input);
             return Ok("Tạo thành công");
+        }
+
+        [HttpPut,Route("Update")]
+        public IActionResult Update([FromBody]PostUpdate input)
+        {
+            var post = _postAppService.Update(input);
+            return Ok("Thành công");
         }
 
         [HttpDelete,Route("Delete")]
         public IActionResult Delete(int id)
         {
             var post = _postAppService.Delete(id);
-            return Ok();
+            return Ok("Thành công");
         }
     }
 }

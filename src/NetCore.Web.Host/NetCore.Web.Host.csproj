@@ -28,6 +28,8 @@
     <ProjectReference Include="..\NetCore.Web.Core\NetCore.Web.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Abp.HangFire.AspNetCore" Version="4.1.0" />
+    <PackageReference Include="Abp.MailKit" Version="4.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.6">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
@@ -67,7 +69,7 @@
     <Exec Command="ng build --prod" />
     <ItemGroup>
       <DistFiles Include="wwwroot\**\*" />
-      <ResolvedFileToPublish Include="@(DistFiles-&gt;'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
         <RelativePath>%(DistFiles.Identity)</RelativePath>
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       </ResolvedFileToPublish>

@@ -18,6 +18,7 @@ using NetCore.Identity;
 
 using Abp.AspNetCore.SignalR.Hubs;
 using Microsoft.AspNetCore.Http;
+using Hangfire;
 
 namespace NetCore.Web.Host.Startup
 {
@@ -131,6 +132,15 @@ app.Use(async (context, next) =>                {                    await next(
                     "Status code page, status code: " +
                     context.HttpContext.Response.StatusCode);
             });
+
+            //app.UseHangfireDashboard("/hangfire", new DashboardOptions
+            //{
+            //    AppPath = "/",
+            //    Authorization = new[]
+            //    {
+            //        new HangfireAuthorizationFilter()
+            //    }
+            //});
 
 
 

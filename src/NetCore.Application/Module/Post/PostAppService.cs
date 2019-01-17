@@ -24,8 +24,6 @@ namespace NetCore.Module.Post
         public async Task Create(PostCreate input)
         {
             var post = input.MapTo<Models.Post>();
-            post.Status = "Published";
-            post.PublishedTime = DateTime.Now;
             await _postRepository.InsertAsync(post);
         }
 
@@ -61,8 +59,6 @@ namespace NetCore.Module.Post
         public async Task Update(PostUpdate input)
         {
             var post = input.MapTo<Models.Post>();
-            post.Status = "Published";
-            post.PublishedTime = DateTime.Now;
             await _postRepository.UpdateAsync(post);
         }
     }

@@ -60,6 +60,12 @@ namespace NetCore.Module.Comment
             return comment.MapTo<CommentDto>();
         }
 
+        public List<CommentDto> GetByPostId(int id)
+        {
+            var post = _commentRepository.GetAll().Where(i => i.PostId == id);
+            return post.MapTo<List<CommentDto>>();
+        }
+
         public async Task Update(CommentUpdate input)
         {
             var post = input.MapTo<Models.Comment>();

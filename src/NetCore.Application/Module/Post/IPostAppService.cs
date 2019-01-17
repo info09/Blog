@@ -10,9 +10,13 @@ namespace NetCore.Module.Post
     public interface IPostAppService:IApplicationService
     {
         List<PostDto> GetAll(PostFilter filter);
+
         Task<PostDto> GetById(int id);
+
         Task Create(PostCreate input);
+
         Task Update(PostUpdate input);
+
         Task Delete(int id);
     }
 }
