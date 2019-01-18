@@ -50,6 +50,12 @@ namespace NetCore.Module.Post
             return output.MapTo<List<PostDto>>();
         }
 
+        public List<PostDto> GetAll()
+        {
+            var post = _postRepository.GetAll().ToList();
+            return post.MapTo<List<PostDto>>();
+        }
+
         public async Task<PostDto> GetById(int id)
         {
             var post = await _postRepository.GetAll().Include(i => i.Comments).FirstOrDefaultAsync(i => i.Id == id);

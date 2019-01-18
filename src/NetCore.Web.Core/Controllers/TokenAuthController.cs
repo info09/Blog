@@ -17,6 +17,8 @@ using NetCore.Authorization;
 using NetCore.Authorization.Users;
 using NetCore.Models.TokenAuth;
 using NetCore.MultiTenancy;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace NetCore.Controllers
 {
@@ -187,7 +189,11 @@ namespace NetCore.Controllers
             switch (loginResult.Result)
             {
                 case AbpLoginResultType.Success:
-                    return loginResult;
+                    {
+                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                            new ClaimsPrincipal(loginResult.Identity));
+                        return loginResult;
+                    }
                 default:
                     throw _abpLoginResultTypeHelper.CreateExceptionForFailedLoginAttempt(loginResult.Result, usernameOrEmailAddress, tenancyName);
             }

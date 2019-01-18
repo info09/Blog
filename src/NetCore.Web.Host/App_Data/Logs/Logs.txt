@@ -6063,3 +6063,1077 @@ System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.Internals.S
    at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
    at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
 INFO  2019-01-17 16:40:31,568 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30777.5458ms 500 application/json; charset=utf-8
+DEBUG 2019-01-18 20:53:13,124 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-18 20:53:13,154 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-18 20:53:13,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.Web.Host.Startup.NetCoreWebHostModule, NetCore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,179 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreWebCoreModule, NetCore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreApplicationModule, NetCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreCoreModule, NetCore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,181 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,181 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,181 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,182 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.EntityFrameworkCore.NetCoreEntityFrameworkModule, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,182 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,182 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:13,187 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-18 20:53:13,264 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:53:13,264 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:53:13,264 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:53:13,264 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:53:13,610 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCore.EntityFrameworkCore.NetCoreDbContext, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:14,236 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-18 20:53:14,283 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-18 20:53:14,297 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-18 20:53:14,314 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCore
+DEBUG 2019-01-18 20:53:14,319 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-18 20:53:14,361 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-18 20:53:14,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2019-01-18 20:53:14,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-18 20:53:14,428 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.CreateUserDto
+DEBUG 2019-01-18 20:53:14,429 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.UserDto
+DEBUG 2019-01-18 20:53:14,430 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-18 20:53:14,430 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-18 20:53:14,430 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-18 20:53:14,430 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.PermissionDto
+DEBUG 2019-01-18 20:53:14,430 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.RoleDto
+DEBUG 2019-01-18 20:53:14,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-18 20:53:14,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-18 20:53:14,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostCreate
+DEBUG 2019-01-18 20:53:14,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostDto
+DEBUG 2019-01-18 20:53:14,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostUpdate
+DEBUG 2019-01-18 20:53:14,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentCreate
+DEBUG 2019-01-18 20:53:14,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentDto
+DEBUG 2019-01-18 20:53:14,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentUpdate
+DEBUG 2019-01-18 20:53:32,217 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-18 20:53:32,395 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-18 20:53:32,436 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.Web.Host.Startup.NetCoreWebHostModule, NetCore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreWebCoreModule, NetCore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreApplicationModule, NetCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreCoreModule, NetCore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.EntityFrameworkCore.NetCoreEntityFrameworkModule, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:32,456 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-18 20:53:32,569 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:53:32,569 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:53:32,569 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:53:32,569 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:53:33,201 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCore.EntityFrameworkCore.NetCoreDbContext, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:53:35,218 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-18 20:53:35,327 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-18 20:53:35,342 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-18 20:53:35,350 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCore
+DEBUG 2019-01-18 20:53:35,356 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-18 20:53:35,816 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-18 20:53:35,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2019-01-18 20:53:35,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-18 20:53:35,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.CreateUserDto
+DEBUG 2019-01-18 20:53:35,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.UserDto
+DEBUG 2019-01-18 20:53:35,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-18 20:53:35,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-18 20:53:35,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-18 20:53:35,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.PermissionDto
+DEBUG 2019-01-18 20:53:35,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.RoleDto
+DEBUG 2019-01-18 20:53:35,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-18 20:53:35,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-18 20:53:35,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostCreate
+DEBUG 2019-01-18 20:53:35,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostDto
+DEBUG 2019-01-18 20:53:35,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostUpdate
+DEBUG 2019-01-18 20:53:35,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentCreate
+DEBUG 2019-01-18 20:53:35,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentDto
+DEBUG 2019-01-18 20:53:35,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentUpdate
+INFO  2019-01-18 20:53:44,607 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Start installing Hangfire SQL objects...
+INFO  2019-01-18 20:53:44,718 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Hangfire SQL objects installed.
+INFO  2019-01-18 20:53:44,749 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-01-18 20:53:44,757 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: ADMIN\SQLEXPRESS@BlogDb'
+INFO  2019-01-18 20:53:44,761 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-01-18 20:53:44,765 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-01-18 20:53:44,768 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-01-18 20:53:44,771 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-01-18 20:53:44,775 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-01-18 20:53:44,779 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-01-18 20:53:44,782 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+INFO  2019-01-18 20:53:46,202 [chdog] Hangfire.Server.ServerWatchdog           - 2 servers were removed due to timeout
+INFO  2019-01-18 20:53:57,298 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-18 20:53:57,303 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire  
+INFO  2019-01-18 20:53:57,315 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire  
+INFO  2019-01-18 20:53:57,328 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-01-18 20:53:57,334 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-01-18 20:53:57,537 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 246.8183ms 200 
+INFO  2019-01-18 20:53:58,519 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1219.2235ms 200 text/html
+ERROR 2019-01-18 20:53:58,652 [10   ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.<>c.<Build>b__16_0(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\New folder (2)\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 107
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+WARN  2019-01-18 20:53:58,663 [10   ] e.Diagnostics.ExceptionHandlerMiddleware - The response has already started, the error handler will not be executed.
+ERROR 2019-01-18 20:53:58,682 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLJT9HI0PFKP", Request id "0HLJT9HI0PFKP:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.<>c.<Build>b__16_0(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\New folder (2)\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 107
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-01-18 20:53:58,693 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1403.1996ms 404 text/plain
+INFO  2019-01-18 20:53:59,038 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1750.1188ms 200 text/html
+INFO  2019-01-18 20:53:59,104 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1750.1449ms 200 text/html
+INFO  2019-01-18 20:53:59,113 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:53:59,125 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:53:59,240 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104.9406ms 200 text/css
+INFO  2019-01-18 20:53:59,364 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 165.8784ms 200 application/javascript
+INFO  2019-01-18 20:53:59,461 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:53:59,497 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:53:59,518 [41   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:53:59,557 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 202.6845ms 200 font/woff2
+INFO  2019-01-18 20:53:59,939 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2019-01-18 20:53:59,978 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.1294ms 404 text/plain
+INFO  2019-01-18 20:54:01,865 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 20:54:01,869 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:01,874 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:02,085 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 206.0454ms 200 application/json
+INFO  2019-01-18 20:54:03,437 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/recurring  
+INFO  2019-01-18 20:54:03,564 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.2816ms 200 text/html
+INFO  2019-01-18 20:54:03,569 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:03,575 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:03,604 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.5637ms 200 text/css
+INFO  2019-01-18 20:54:03,706 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:03,784 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.9772ms 200 application/javascript
+INFO  2019-01-18 20:54:03,795 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:03,830 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:03,866 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 195.5386ms 200 font/woff2
+INFO  2019-01-18 20:54:05,887 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 20:54:05,890 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:05,898 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:05,910 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.0729ms 200 application/json
+INFO  2019-01-18 20:54:07,884 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 20:54:07,889 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:07,893 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:07,900 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.9012ms 200 application/json
+INFO  2019-01-18 20:54:09,884 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 20:54:09,888 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:09,892 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:09,900 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.8893ms 200 application/json
+INFO  2019-01-18 20:54:11,885 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 20:54:11,890 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:11,896 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:11,905 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.5789ms 200 application/json
+INFO  2019-01-18 20:54:13,593 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/retries  
+INFO  2019-01-18 20:54:13,613 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.1716ms 200 text/html
+INFO  2019-01-18 20:54:13,637 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:13,642 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:13,659 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.2376ms 200 text/css
+INFO  2019-01-18 20:54:13,720 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.9437ms 200 application/javascript
+INFO  2019-01-18 20:54:13,748 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:13,759 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:13,784 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:13,805 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.6333ms 200 font/woff2
+INFO  2019-01-18 20:54:14,508 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/enqueued  
+INFO  2019-01-18 20:54:14,584 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.3207ms 200 text/html
+INFO  2019-01-18 20:54:14,603 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:14,609 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:14,633 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.542ms 200 text/css
+INFO  2019-01-18 20:54:14,665 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.8423ms 200 application/javascript
+INFO  2019-01-18 20:54:14,670 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:14,682 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:14,688 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:14,713 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.6422ms 200 font/woff2
+INFO  2019-01-18 20:54:15,949 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/succeeded  
+INFO  2019-01-18 20:54:16,021 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.5793ms 200 text/html
+INFO  2019-01-18 20:54:16,052 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:16,055 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:16,067 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.7428ms 200 text/css
+INFO  2019-01-18 20:54:16,100 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.0276ms 200 application/javascript
+INFO  2019-01-18 20:54:16,117 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:16,127 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:16,133 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:16,153 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.9814ms 200 font/woff2
+INFO  2019-01-18 20:54:18,254 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 20:54:18,261 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:18,267 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:18,286 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.7648ms 200 application/json
+INFO  2019-01-18 20:54:20,246 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 20:54:20,250 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:20,254 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:20,263 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.7871ms 200 application/json
+INFO  2019-01-18 20:54:20,382 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/details/10  
+INFO  2019-01-18 20:54:20,455 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.6457ms 200 text/html
+INFO  2019-01-18 20:54:20,483 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:20,486 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:20,531 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.3232ms 200 text/css
+INFO  2019-01-18 20:54:20,615 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:20,627 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 141.7601ms 200 application/javascript
+INFO  2019-01-18 20:54:20,630 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:20,642 [41   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:20,675 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.2517ms 200 font/woff2
+INFO  2019-01-18 20:54:22,785 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 20:54:22,797 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:22,803 [41   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:22,818 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.0693ms 200 application/json
+INFO  2019-01-18 20:54:23,461 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/retries  
+INFO  2019-01-18 20:54:23,492 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.4654ms 200 text/html
+INFO  2019-01-18 20:54:23,502 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:23,508 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:23,534 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.5478ms 200 text/css
+INFO  2019-01-18 20:54:23,610 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:23,628 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:23,637 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:23,668 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.3846ms 200 application/javascript
+INFO  2019-01-18 20:54:23,672 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 85.1237ms 200 font/woff2
+INFO  2019-01-18 20:54:24,018 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/enqueued  
+INFO  2019-01-18 20:54:24,066 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.6438ms 200 text/html
+INFO  2019-01-18 20:54:24,125 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:24,128 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:24,154 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.9658ms 200 text/css
+INFO  2019-01-18 20:54:24,215 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.3884ms 200 application/javascript
+INFO  2019-01-18 20:54:24,236 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:24,249 [44   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:24,314 [44   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:24,405 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.3353ms 200 font/woff2
+INFO  2019-01-18 20:54:25,463 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/succeeded  
+INFO  2019-01-18 20:54:25,501 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.5114ms 200 text/html
+INFO  2019-01-18 20:54:25,519 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:25,522 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:25,537 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.0906ms 200 text/css
+INFO  2019-01-18 20:54:25,674 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:25,680 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 141.0319ms 200 application/javascript
+INFO  2019-01-18 20:54:25,688 [44   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:25,698 [44   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:25,724 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 99.6837ms 200 font/woff2
+INFO  2019-01-18 20:54:28,080 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 20:54:28,085 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:28,090 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:28,210 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 230.7207ms 200 application/json
+INFO  2019-01-18 20:54:28,259 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/jobs/succeeded/requeue application/x-www-form-urlencoded; charset=UTF-8 12
+INFO  2019-01-18 20:54:28,265 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:28,270 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2019-01-18 20:54:28,316 [6    ] Hangfire.AutomaticRetryAttribute         - Failed to process the job '9': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:31.
+System.TypeLoadException: Could not load type 'NetCore.Module.Hangfire.TestJob' from assembly 'NetCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type, ObjectHandleOnStack keepalive)
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   at System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   at System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   at Hangfire.Storage.InvocationData.Deserialize()
+INFO  2019-01-18 20:54:28,353 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 95.2339ms 204 
+INFO  2019-01-18 20:54:28,374 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/succeeded  
+INFO  2019-01-18 20:54:28,481 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.616ms 200 text/html
+INFO  2019-01-18 20:54:28,536 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:28,540 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:28,580 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.6736ms 200 text/css
+INFO  2019-01-18 20:54:28,734 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.1496ms 200 application/javascript
+INFO  2019-01-18 20:54:28,747 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:28,760 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:28,770 [41   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:28,792 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.2007ms 200 font/woff2
+INFO  2019-01-18 20:54:30,888 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 20:54:30,895 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:30,899 [41   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:30,943 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.2508ms 200 application/json
+INFO  2019-01-18 20:54:31,232 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/jobs/succeeded/requeue application/x-www-form-urlencoded; charset=UTF-8 13
+INFO  2019-01-18 20:54:31,236 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:31,240 [41   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:31,261 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.1677ms 204 
+INFO  2019-01-18 20:54:31,269 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/succeeded  
+INFO  2019-01-18 20:54:31,301 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.9969ms 200 text/html
+INFO  2019-01-18 20:54:31,338 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:31,347 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:31,449 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.9531ms 200 text/css
+INFO  2019-01-18 20:54:31,487 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:31,501 [44   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:31,514 [44   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:31,537 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 181.908ms 200 application/javascript
+INFO  2019-01-18 20:54:31,547 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.1388ms 200 font/woff2
+INFO  2019-01-18 20:54:33,656 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 20:54:33,661 [42   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:33,667 [42   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:33,678 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.9173ms 200 application/json
+INFO  2019-01-18 20:54:35,520 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/succeeded  
+INFO  2019-01-18 20:54:35,552 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.037ms 200 text/html
+INFO  2019-01-18 20:54:35,568 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:35,571 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:35,615 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.6708ms 200 text/css
+INFO  2019-01-18 20:54:35,643 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.0523ms 200 application/javascript
+INFO  2019-01-18 20:54:35,646 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:35,655 [44   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:35,672 [44   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:35,686 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.7164ms 200 font/woff2
+INFO  2019-01-18 20:54:37,761 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 20:54:37,766 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:37,770 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:37,779 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.1592ms 200 application/json
+INFO  2019-01-18 20:54:38,950 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/jobs/succeeded/requeue application/x-www-form-urlencoded; charset=UTF-8 13
+INFO  2019-01-18 20:54:38,954 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:38,958 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:38,968 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.5714ms 204 
+INFO  2019-01-18 20:54:38,980 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/succeeded  
+INFO  2019-01-18 20:54:38,999 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.7627ms 200 text/html
+INFO  2019-01-18 20:54:39,038 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:39,045 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:39,083 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.7181ms 200 text/css
+INFO  2019-01-18 20:54:39,158 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:39,165 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:39,173 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 132.1986ms 200 application/javascript
+INFO  2019-01-18 20:54:39,178 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:39,192 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.7352ms 200 font/woff2
+INFO  2019-01-18 20:54:41,240 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 20:54:41,246 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:41,255 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:41,264 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/succeeded  
+INFO  2019-01-18 20:54:41,278 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.757ms 200 application/json
+INFO  2019-01-18 20:54:41,294 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.694ms 200 text/html
+INFO  2019-01-18 20:54:41,315 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:41,320 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:41,359 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.3066ms 200 text/css
+INFO  2019-01-18 20:54:41,393 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.121ms 200 application/javascript
+INFO  2019-01-18 20:54:41,413 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:41,420 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:41,443 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:41,457 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.1558ms 200 font/woff2
+INFO  2019-01-18 20:54:43,562 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 20:54:43,567 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:43,571 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:43,579 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.8942ms 200 application/json
+INFO  2019-01-18 20:54:45,565 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 20:54:45,569 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:45,574 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:45,582 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.8986ms 200 application/json
+INFO  2019-01-18 20:54:46,433 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/enqueued  
+INFO  2019-01-18 20:54:46,448 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.9163ms 200 text/html
+INFO  2019-01-18 20:54:46,467 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:46,473 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:46,483 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.151ms 200 text/css
+INFO  2019-01-18 20:54:46,510 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.1908ms 200 application/javascript
+INFO  2019-01-18 20:54:46,556 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:46,567 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:46,585 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:46,597 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.6373ms 200 font/woff2
+INFO  2019-01-18 20:54:47,245 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/retries  
+INFO  2019-01-18 20:54:47,265 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.9906ms 200 text/html
+INFO  2019-01-18 20:54:47,288 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:47,297 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:47,349 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.7467ms 200 text/css
+INFO  2019-01-18 20:54:47,396 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 85.6061ms 200 application/javascript
+INFO  2019-01-18 20:54:47,402 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:47,415 [44   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:47,447 [44   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:47,476 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.1534ms 200 font/woff2
+INFO  2019-01-18 20:54:49,534 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 20:54:49,537 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:49,543 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:49,552 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.5194ms 200 application/json
+INFO  2019-01-18 20:54:51,067 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/jobs/scheduled/delete application/x-www-form-urlencoded; charset=UTF-8 12
+INFO  2019-01-18 20:54:51,072 [42   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:51,079 [42   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:51,139 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.6429ms 204 
+INFO  2019-01-18 20:54:51,143 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/retries  
+INFO  2019-01-18 20:54:51,175 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.9543ms 200 text/html
+INFO  2019-01-18 20:54:51,183 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:51,185 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:51,228 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.5021ms 200 text/css
+INFO  2019-01-18 20:54:51,247 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.7113ms 200 application/javascript
+INFO  2019-01-18 20:54:51,263 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:51,268 [44   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:51,276 [44   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:51,290 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.8125ms 200 font/woff2
+INFO  2019-01-18 20:54:52,490 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/enqueued  
+INFO  2019-01-18 20:54:52,503 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.7453ms 200 text/html
+INFO  2019-01-18 20:54:52,520 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:52,527 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:52,554 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.3762ms 200 text/css
+INFO  2019-01-18 20:54:52,586 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.6558ms 200 application/javascript
+INFO  2019-01-18 20:54:52,630 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:52,642 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:52,651 [41   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:52,666 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.3344ms 200 font/woff2
+INFO  2019-01-18 20:54:53,591 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/succeeded  
+INFO  2019-01-18 20:54:53,636 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.4524ms 200 text/html
+INFO  2019-01-18 20:54:53,644 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:53,647 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:53,693 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.3379ms 200 text/css
+INFO  2019-01-18 20:54:53,715 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:53,749 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:53,758 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.9963ms 200 application/javascript
+INFO  2019-01-18 20:54:53,765 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:53,809 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.8525ms 200 font/woff2
+INFO  2019-01-18 20:54:55,384 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/retries  
+INFO  2019-01-18 20:54:55,398 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.7682ms 200 text/html
+INFO  2019-01-18 20:54:55,420 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:55,423 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:55,434 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.0418ms 200 text/css
+INFO  2019-01-18 20:54:55,484 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.5621ms 200 application/javascript
+INFO  2019-01-18 20:54:55,492 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:55,510 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:55,518 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:55,527 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.9594ms 200 font/woff2
+INFO  2019-01-18 20:54:56,137 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/recurring  
+INFO  2019-01-18 20:54:56,155 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.2651ms 200 text/html
+INFO  2019-01-18 20:54:56,170 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:56,175 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:56,195 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.4727ms 200 text/css
+INFO  2019-01-18 20:54:56,216 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.5191ms 200 application/javascript
+INFO  2019-01-18 20:54:56,229 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:56,236 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:56,249 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:56,270 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.3389ms 200 font/woff2
+INFO  2019-01-18 20:54:57,217 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/retries  
+INFO  2019-01-18 20:54:57,230 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.9186ms 200 text/html
+INFO  2019-01-18 20:54:57,250 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:57,252 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:57,267 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.6486ms 200 text/css
+INFO  2019-01-18 20:54:57,314 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.8922ms 200 application/javascript
+INFO  2019-01-18 20:54:57,319 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:57,327 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:57,332 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:57,355 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.4508ms 200 font/woff2
+INFO  2019-01-18 20:54:59,422 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 20:54:59,427 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:59,433 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:59,445 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.034ms 200 application/json
+INFO  2019-01-18 20:54:59,689 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/recurring  
+INFO  2019-01-18 20:54:59,703 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.0999ms 200 text/html
+INFO  2019-01-18 20:54:59,724 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:54:59,726 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:54:59,745 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.7391ms 200 text/css
+INFO  2019-01-18 20:54:59,780 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.0784ms 200 application/javascript
+INFO  2019-01-18 20:54:59,801 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:54:59,813 [44   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:54:59,819 [44   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:54:59,846 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.6759ms 200 font/woff2
+INFO  2019-01-18 20:55:01,920 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 20:55:01,927 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:55:01,938 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:55:01,957 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.04ms 200 application/json
+DEBUG 2019-01-18 20:58:58,180 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-18 20:58:58,352 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-18 20:58:58,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.Web.Host.Startup.NetCoreWebHostModule, NetCore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreWebCoreModule, NetCore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreApplicationModule, NetCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreCoreModule, NetCore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.EntityFrameworkCore.NetCoreEntityFrameworkModule, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,392 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,395 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:58:58,400 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-18 20:58:58,530 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:58:58,530 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:58:58,530 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:58:58,530 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 20:58:59,248 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCore.EntityFrameworkCore.NetCoreDbContext, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 20:59:01,609 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-18 20:59:01,738 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-18 20:59:01,768 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-18 20:59:01,780 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCore
+DEBUG 2019-01-18 20:59:01,787 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-18 20:59:02,298 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-18 20:59:02,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2019-01-18 20:59:02,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-18 20:59:02,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.CreateUserDto
+DEBUG 2019-01-18 20:59:02,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.UserDto
+DEBUG 2019-01-18 20:59:02,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-18 20:59:02,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-18 20:59:02,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-18 20:59:02,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.PermissionDto
+DEBUG 2019-01-18 20:59:02,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.RoleDto
+DEBUG 2019-01-18 20:59:02,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-18 20:59:02,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-18 20:59:02,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostCreate
+DEBUG 2019-01-18 20:59:02,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostDto
+DEBUG 2019-01-18 20:59:02,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostUpdate
+DEBUG 2019-01-18 20:59:02,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentCreate
+DEBUG 2019-01-18 20:59:02,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentDto
+DEBUG 2019-01-18 20:59:02,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentUpdate
+INFO  2019-01-18 20:59:11,223 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Start installing Hangfire SQL objects...
+INFO  2019-01-18 20:59:11,391 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Hangfire SQL objects installed.
+INFO  2019-01-18 20:59:11,442 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-01-18 20:59:11,458 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: ADMIN\SQLEXPRESS@BlogDb'
+INFO  2019-01-18 20:59:11,466 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-01-18 20:59:11,471 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-01-18 20:59:11,476 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-01-18 20:59:11,485 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-01-18 20:59:11,492 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-01-18 20:59:11,500 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-01-18 20:59:11,505 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+INFO  2019-01-18 20:59:23,048 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-18 20:59:23,052 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire  
+INFO  2019-01-18 20:59:23,056 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire  
+INFO  2019-01-18 20:59:23,063 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-01-18 20:59:23,072 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-01-18 20:59:23,364 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 334.8397ms 200 
+INFO  2019-01-18 20:59:24,238 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1211.4231ms 200 text/html
+ERROR 2019-01-18 20:59:24,427 [10   ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.<>c.<Build>b__16_0(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\New folder (2)\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+WARN  2019-01-18 20:59:24,445 [10   ] e.Diagnostics.ExceptionHandlerMiddleware - The response has already started, the error handler will not be executed.
+ERROR 2019-01-18 20:59:24,462 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLJT9KJ2IMIV", Request id "0HLJT9KJ2IMIV:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.<>c.<Build>b__16_0(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\New folder (2)\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-01-18 20:59:24,469 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1446.8077ms 404 text/plain
+INFO  2019-01-18 20:59:24,714 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1688.8157ms 200 text/html
+INFO  2019-01-18 20:59:24,739 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1688.8007ms 200 text/html
+INFO  2019-01-18 20:59:24,749 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 20:59:24,756 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 20:59:24,858 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.382ms 200 text/css
+INFO  2019-01-18 20:59:24,936 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 163.1044ms 200 application/javascript
+INFO  2019-01-18 20:59:24,946 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 20:59:25,005 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:59:25,085 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:59:25,178 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 178.9912ms 200 font/woff2
+INFO  2019-01-18 20:59:25,422 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2019-01-18 20:59:25,452 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.1939ms 404 text/plain
+INFO  2019-01-18 20:59:27,392 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 20:59:27,397 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:59:27,401 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:59:27,611 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 199.9455ms 200 application/json
+INFO  2019-01-18 20:59:29,390 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 20:59:29,396 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:59:29,402 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:59:29,415 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.3265ms 200 application/json
+INFO  2019-01-18 20:59:31,395 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 20:59:31,402 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 20:59:31,409 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 20:59:31,422 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.5015ms 200 application/json
+INFO  2019-01-18 20:59:32,015 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-18 20:59:32,036 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.1403ms 200 text/html
+INFO  2019-01-18 20:59:32,069 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-01-18 20:59:32,077 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-01-18 20:59:32,089 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-01-18 20:59:32,146 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-01-18 20:59:32,152 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-01-18 20:59:32,159 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-01-18 20:59:32,193 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 108.7838ms 304 text/css
+INFO  2019-01-18 20:59:32,212 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 111.9917ms 304 application/javascript
+INFO  2019-01-18 20:59:32,222 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.3507ms 304 application/javascript
+INFO  2019-01-18 20:59:32,527 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-01-18 20:59:32,768 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-18 20:59:33,290 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 766.7021ms 200 application/json;charset=utf-8
+DEBUG 2019-01-18 21:00:29,970 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-18 21:00:30,141 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-18 21:00:30,179 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.Web.Host.Startup.NetCoreWebHostModule, NetCore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreWebCoreModule, NetCore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreApplicationModule, NetCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreCoreModule, NetCore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.EntityFrameworkCore.NetCoreEntityFrameworkModule, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:30,194 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-18 21:00:30,336 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 21:00:30,336 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 21:00:30,336 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 21:00:30,336 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 21:00:31,342 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCore.EntityFrameworkCore.NetCoreDbContext, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:00:34,582 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-18 21:00:34,671 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-18 21:00:34,693 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-18 21:00:34,709 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCore
+DEBUG 2019-01-18 21:00:34,736 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-18 21:00:35,310 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-18 21:00:35,386 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2019-01-18 21:00:35,386 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-18 21:00:35,396 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.CreateUserDto
+DEBUG 2019-01-18 21:00:35,398 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.UserDto
+DEBUG 2019-01-18 21:00:35,398 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-18 21:00:35,398 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-18 21:00:35,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-18 21:00:35,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.PermissionDto
+DEBUG 2019-01-18 21:00:35,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.RoleDto
+DEBUG 2019-01-18 21:00:35,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-18 21:00:35,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-18 21:00:35,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostCreate
+DEBUG 2019-01-18 21:00:35,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostDto
+DEBUG 2019-01-18 21:00:35,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostUpdate
+DEBUG 2019-01-18 21:00:35,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentCreate
+DEBUG 2019-01-18 21:00:35,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentDto
+DEBUG 2019-01-18 21:00:35,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentUpdate
+INFO  2019-01-18 21:00:42,252 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Start installing Hangfire SQL objects...
+INFO  2019-01-18 21:00:42,371 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Hangfire SQL objects installed.
+INFO  2019-01-18 21:00:42,406 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-01-18 21:00:42,415 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: ADMIN\SQLEXPRESS@BlogDb'
+INFO  2019-01-18 21:00:42,420 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-01-18 21:00:42,424 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-01-18 21:00:42,430 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-01-18 21:00:42,433 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-01-18 21:00:42,438 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-01-18 21:00:42,444 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-01-18 21:00:42,448 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+INFO  2019-01-18 21:00:43,943 [chdog] Hangfire.Server.ServerWatchdog           - 1 servers were removed due to timeout
+INFO  2019-01-18 21:00:53,570 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire  
+INFO  2019-01-18 21:00:53,577 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-18 21:00:53,582 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-01-18 21:00:53,587 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire  
+INFO  2019-01-18 21:00:53,596 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-01-18 21:00:53,817 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 231.1107ms 200 
+INFO  2019-01-18 21:00:54,881 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1321.1638ms 200 text/html
+WARN  2019-01-18 21:00:55,076 [6    ] Microsoft.AspNetCore.Server.Kestrel      - Connection processing ended abnormally.
+Microsoft.AspNetCore.Connections.ConnectionAbortedException: The connection was aborted
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+ERROR 2019-01-18 21:00:55,183 [41   ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.<>c.<Build>b__16_0(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\New folder (2)\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+WARN  2019-01-18 21:00:55,193 [41   ] e.Diagnostics.ExceptionHandlerMiddleware - The response has already started, the error handler will not be executed.
+ERROR 2019-01-18 21:00:55,256 [41   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLJT9LE3CKHT", Request id "0HLJT9LE3CKHT:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.<>c.<Build>b__16_0(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\New folder (2)\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-01-18 21:00:55,273 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1709.3505ms 404 text/plain
+INFO  2019-01-18 21:00:55,626 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2025.6256ms 200 text/html
+INFO  2019-01-18 21:00:55,638 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2025.6256ms 200 text/html
+INFO  2019-01-18 21:00:55,661 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 21:00:55,690 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 21:00:55,828 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 148.4185ms 200 text/css
+INFO  2019-01-18 21:00:55,991 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 268.0324ms 200 application/javascript
+INFO  2019-01-18 21:00:55,994 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 21:00:56,027 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:00:56,038 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:00:56,066 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104.4908ms 200 font/woff2
+INFO  2019-01-18 21:00:56,462 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2019-01-18 21:00:56,476 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.1302ms 404 text/plain
+INFO  2019-01-18 21:00:58,418 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:00:58,425 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:00:58,429 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:00:58,660 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 241.0422ms 200 application/json
+INFO  2019-01-18 21:01:00,411 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:00,417 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:00,425 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:00,445 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.5051ms 200 application/json
+INFO  2019-01-18 21:01:02,409 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:02,413 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:02,418 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:02,436 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.3093ms 200 application/json
+INFO  2019-01-18 21:01:04,409 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:04,414 [3    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:04,419 [3    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:04,437 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.4087ms 200 application/json
+INFO  2019-01-18 21:01:06,411 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:06,422 [3    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:06,427 [3    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:06,441 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.7789ms 200 application/json
+INFO  2019-01-18 21:01:08,410 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:08,415 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:08,421 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:08,429 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.9845ms 200 application/json
+INFO  2019-01-18 21:01:10,409 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:10,415 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:10,421 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:10,436 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.1534ms 200 application/json
+INFO  2019-01-18 21:01:12,415 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:12,420 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:12,425 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:12,435 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.4718ms 200 application/json
+INFO  2019-01-18 21:01:14,414 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:14,420 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:14,426 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:14,436 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.3165ms 200 application/json
+INFO  2019-01-18 21:01:16,424 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:16,432 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:16,438 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:16,449 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.8404ms 200 application/json
+INFO  2019-01-18 21:01:18,409 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:18,420 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:18,436 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:18,448 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.6686ms 200 application/json
+INFO  2019-01-18 21:01:20,410 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:20,415 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:20,419 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:20,427 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.5145ms 200 application/json
+INFO  2019-01-18 21:01:22,410 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:22,421 [3    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:22,427 [3    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:22,439 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.1637ms 200 application/json
+INFO  2019-01-18 21:01:24,409 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:24,414 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:24,418 [41   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:24,426 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.5903ms 200 application/json
+INFO  2019-01-18 21:01:26,410 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:26,415 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:26,422 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:26,433 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.8443ms 200 application/json
+INFO  2019-01-18 21:01:28,408 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:28,412 [3    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:28,416 [3    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:28,426 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.7827ms 200 application/json
+INFO  2019-01-18 21:01:30,408 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:30,412 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:30,416 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:30,424 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.9483ms 200 application/json
+INFO  2019-01-18 21:01:32,409 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:32,413 [3    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:32,416 [3    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:32,425 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.3733ms 200 application/json
+INFO  2019-01-18 21:01:34,408 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:34,412 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:34,416 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:34,433 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.9856ms 200 application/json
+INFO  2019-01-18 21:01:36,408 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:36,412 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:36,416 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:36,424 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.2674ms 200 application/json
+INFO  2019-01-18 21:01:38,408 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:38,413 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:38,417 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:38,426 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.7433ms 200 application/json
+INFO  2019-01-18 21:01:40,413 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:40,422 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:40,427 [41   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:40,439 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.5222ms 200 application/json
+INFO  2019-01-18 21:01:42,409 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:42,414 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:42,419 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:42,430 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.0463ms 200 application/json
+INFO  2019-01-18 21:01:44,410 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:44,416 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:44,420 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:44,432 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.9379ms 200 application/json
+INFO  2019-01-18 21:01:46,407 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:46,411 [41   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:46,416 [41   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:46,425 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.8053ms 200 application/json
+INFO  2019-01-18 21:01:48,412 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:48,417 [3    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:48,421 [3    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:48,429 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.0433ms 200 application/json
+INFO  2019-01-18 21:01:50,411 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2019-01-18 21:01:50,417 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:50,426 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:50,436 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.9099ms 200 application/json
+INFO  2019-01-18 21:01:51,587 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/recurring  
+INFO  2019-01-18 21:01:51,661 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.9552ms 200 text/html
+INFO  2019-01-18 21:01:51,689 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 21:01:51,696 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 21:01:51,815 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.3936ms 200 text/css
+INFO  2019-01-18 21:01:51,921 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 21:01:51,974 [44   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:52,006 [44   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:52,058 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 328.3862ms 200 application/javascript
+INFO  2019-01-18 21:01:52,108 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 149.164ms 200 font/woff2
+INFO  2019-01-18 21:01:54,178 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 21:01:54,183 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:54,187 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:54,198 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.4074ms 200 application/json
+INFO  2019-01-18 21:01:56,176 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 21:01:56,181 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:56,185 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:56,195 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.5711ms 200 application/json
+INFO  2019-01-18 21:01:58,192 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 21:01:58,197 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:01:58,203 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:01:58,211 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.3718ms 200 application/json
+INFO  2019-01-18 21:01:59,222 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-18 21:01:59,242 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.4169ms 200 text/html
+INFO  2019-01-18 21:01:59,272 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-01-18 21:01:59,276 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-01-18 21:01:59,282 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-01-18 21:01:59,333 [42   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-01-18 21:01:59,338 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-01-18 21:01:59,342 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-01-18 21:01:59,371 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.8046ms 304 application/javascript
+INFO  2019-01-18 21:01:59,376 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.8013ms 304 text/css
+INFO  2019-01-18 21:01:59,385 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.6894ms 304 application/javascript
+INFO  2019-01-18 21:01:59,615 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-01-18 21:02:00,128 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 486.9933ms 200 application/json;charset=utf-8
+DEBUG 2019-01-18 21:11:19,310 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-18 21:11:19,564 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-18 21:11:19,616 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.Web.Host.Startup.NetCoreWebHostModule, NetCore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreWebCoreModule, NetCore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreApplicationModule, NetCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreCoreModule, NetCore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,634 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.EntityFrameworkCore.NetCoreEntityFrameworkModule, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,634 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,635 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,635 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:19,649 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-18 21:11:19,891 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 21:11:19,891 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 21:11:19,891 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 21:11:19,891 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-18 21:11:21,279 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCore.EntityFrameworkCore.NetCoreDbContext, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-18 21:11:23,800 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-18 21:11:23,877 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-18 21:11:23,913 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-18 21:11:23,925 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCore
+DEBUG 2019-01-18 21:11:23,937 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-18 21:11:24,355 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-18 21:11:24,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2019-01-18 21:11:24,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-18 21:11:24,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.CreateUserDto
+DEBUG 2019-01-18 21:11:24,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.UserDto
+DEBUG 2019-01-18 21:11:24,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-18 21:11:24,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-18 21:11:24,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-18 21:11:24,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.PermissionDto
+DEBUG 2019-01-18 21:11:24,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.RoleDto
+DEBUG 2019-01-18 21:11:24,509 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-18 21:11:24,509 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-18 21:11:24,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostCreate
+DEBUG 2019-01-18 21:11:24,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostDto
+DEBUG 2019-01-18 21:11:24,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostUpdate
+DEBUG 2019-01-18 21:11:24,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentCreate
+DEBUG 2019-01-18 21:11:24,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentDto
+DEBUG 2019-01-18 21:11:24,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentUpdate
+INFO  2019-01-18 21:11:31,528 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Start installing Hangfire SQL objects...
+INFO  2019-01-18 21:11:31,642 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Hangfire SQL objects installed.
+INFO  2019-01-18 21:11:31,672 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-01-18 21:11:31,679 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: ADMIN\SQLEXPRESS@BlogDb'
+INFO  2019-01-18 21:11:31,683 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-01-18 21:11:31,686 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-01-18 21:11:31,690 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-01-18 21:11:31,694 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-01-18 21:11:31,697 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-01-18 21:11:31,701 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-01-18 21:11:31,704 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+INFO  2019-01-18 21:11:32,938 [chdog] Hangfire.Server.ServerWatchdog           - 2 servers were removed due to timeout
+INFO  2019-01-18 21:11:41,199 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-01-18 21:11:41,210 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-18 21:11:41,216 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire  
+INFO  2019-01-18 21:11:41,446 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 257.9194ms 200 
+INFO  2019-01-18 21:11:42,375 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1199.4617ms 200 text/html
+ERROR 2019-01-18 21:11:46,917 [4    ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyApp.Web.Host.Startup.HangfireAuthorization.Authorize(DashboardContext context) in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Host\Startup\HangfireAuthorization.cs:line 28
+   at Hangfire.Dashboard.AspNetCoreDashboardMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+INFO  2019-01-18 21:11:47,032 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Error"}. Executing action MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host)
+INFO  2019-01-18 21:11:47,165 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host) - Validation state: Valid
+INFO  2019-01-18 21:11:47,472 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 298.5916ms.
+INFO  2019-01-18 21:11:47,932 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 21:11:48,188 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host) in 1098.5808ms
+INFO  2019-01-18 21:11:48,383 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7062.7913ms 500 application/json; charset=utf-8
+INFO  2019-01-18 21:11:48,428 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2019-01-18 21:11:48,450 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.2563ms 404 text/plain
+INFO  2019-01-18 21:11:53,953 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-18 21:11:53,964 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.9441ms 200 text/html
+INFO  2019-01-18 21:11:54,001 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-01-18 21:11:54,005 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-01-18 21:11:54,011 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-01-18 21:11:54,049 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-01-18 21:11:54,053 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-01-18 21:11:54,056 [42   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-01-18 21:11:54,082 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 71.0023ms 304 application/javascript
+INFO  2019-01-18 21:11:54,085 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.7223ms 304 application/javascript
+INFO  2019-01-18 21:11:54,091 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.8044ms 304 text/css
+INFO  2019-01-18 21:11:54,436 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-01-18 21:11:54,821 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 387.4584ms 200 application/json;charset=utf-8
+INFO  2019-01-18 21:12:01,121 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2019-01-18 21:12:01,137 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:12:01,152 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:12:01,308 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth"}. Executing action NetCore.Controllers.TokenAuthController.Authenticate (NetCore.Web.Core)
+INFO  2019-01-18 21:12:01,313 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:12:01,318 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:12:03,132 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCore.Controllers.TokenAuthController.Authenticate (NetCore.Web.Core) with arguments (NetCore.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-01-18 21:12:04,655 [7    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Cookies signed in.
+INFO  2019-01-18 21:12:04,719 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method NetCore.Controllers.TokenAuthController.Authenticate (NetCore.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1583.3175ms.
+INFO  2019-01-18 21:12:05,283 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-18 21:12:05,294 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCore.Controllers.TokenAuthController.Authenticate (NetCore.Web.Core) in 3979.9265ms
+INFO  2019-01-18 21:12:05,321 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4185.4849ms 200 application/json; charset=utf-8
+INFO  2019-01-18 21:12:09,096 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire  
+INFO  2019-01-18 21:12:09,333 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 237.2446ms 200 text/html
+INFO  2019-01-18 21:12:09,478 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 21:12:09,493 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 21:12:09,602 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.5569ms 200 text/css
+INFO  2019-01-18 21:12:09,700 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 218.9893ms 200 application/javascript
+INFO  2019-01-18 21:12:09,732 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 21:12:09,803 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:12:09,827 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:12:09,874 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.3494ms 200 font/woff2
+INFO  2019-01-18 21:12:11,331 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/recurring  
+INFO  2019-01-18 21:12:11,396 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.4326ms 200 text/html
+INFO  2019-01-18 21:12:11,420 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 21:12:11,424 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 21:12:11,440 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.3039ms 200 text/css
+INFO  2019-01-18 21:12:11,468 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.7937ms 200 application/javascript
+INFO  2019-01-18 21:12:11,498 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 21:12:11,505 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:12:11,529 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:12:11,561 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.5588ms 200 font/woff2
+INFO  2019-01-18 21:12:13,661 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 21:12:13,665 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:12:13,669 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:12:13,747 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.0733ms 200 application/json
+INFO  2019-01-18 21:12:15,668 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2019-01-18 21:12:15,672 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:12:15,675 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:12:15,684 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.3005ms 200 application/json
+INFO  2019-01-18 21:12:16,729 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/enqueued  
+INFO  2019-01-18 21:12:16,783 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.1066ms 200 text/html
+INFO  2019-01-18 21:12:16,808 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 21:12:16,820 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 21:12:16,870 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.3611ms 200 text/css
+INFO  2019-01-18 21:12:16,936 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 21:12:16,959 [44   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:12:16,970 [44   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:12:16,991 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 167.8546ms 200 application/javascript
+INFO  2019-01-18 21:12:16,994 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.9966ms 200 font/woff2
+INFO  2019-01-18 21:12:17,752 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/jobs/succeeded  
+INFO  2019-01-18 21:12:17,821 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.5254ms 200 text/html
+INFO  2019-01-18 21:12:17,868 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/css1621  
+INFO  2019-01-18 21:12:17,874 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/js1621  
+INFO  2019-01-18 21:12:17,884 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.307ms 200 text/css
+INFO  2019-01-18 21:12:17,915 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.8435ms 200 application/javascript
+INFO  2019-01-18 21:12:17,942 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/hangfire/fonts/glyphicons-halflings-regular/woff2  
+INFO  2019-01-18 21:12:17,950 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:12:17,959 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:12:17,990 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.7212ms 200 font/woff2
+INFO  2019-01-18 21:12:20,066 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 21:12:20,070 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:12:20,074 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:12:20,082 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.1286ms 200 application/json
+INFO  2019-01-18 21:12:22,068 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 392
+INFO  2019-01-18 21:12:22,072 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-01-18 21:12:22,078 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-01-18 21:12:22,099 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.7254ms 200 application/json

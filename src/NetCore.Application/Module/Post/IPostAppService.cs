@@ -11,6 +11,8 @@ namespace NetCore.Module.Post
     {
         List<PostDto> GetAll(PostFilter filter);
 
+        List<PostDto> GetAll();
+
         Task<PostDto> GetById(int id);
 
         Task Create(PostCreate input);

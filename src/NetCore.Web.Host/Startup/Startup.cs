@@ -19,6 +19,9 @@ using NetCore.Identity;
 using Abp.AspNetCore.SignalR.Hubs;
 using Microsoft.AspNetCore.Http;
 using Hangfire;
+using MyApp.Web.Host.Startup;
+using MyApp.BackgroundJobs;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace NetCore.Web.Host.Startup
 {
@@ -45,6 +48,11 @@ namespace NetCore.Web.Host.Startup
 
             services.AddSignalR();
 
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option =>
+            {
+                option.ExpireTimeSpan = new TimeSpan(1, 0, 0);
+            });
+
             // Configure CORS for angular2 UI
             services.AddCors(
                 options => options.AddPolicy(
@@ -62,6 +70,12 @@ namespace NetCore.Web.Host.Startup
                         .AllowCredentials()
                 )
             );
+            
+
+            services.AddHangfire(config =>
+            {
+                config.UseSqlServerStorage(_appConfiguration.GetConnectionString("Default"));
+            });
 
             // Swagger - Enable this line and the related lines in Configure method to enable swagger UI
             services.AddSwaggerGen(options =>
@@ -133,15 +147,17 @@ app.Use(async (context, next) =>                {                    await next(
                     context.HttpContext.Response.StatusCode);
             });
 
-            //app.UseHangfireDashboard("/hangfire", new DashboardOptions
-            //{
-            //    AppPath = "/",
-            //    Authorization = new[]
-            //    {
-            //        new HangfireAuthorizationFilter()
-            //    }
-            //});
+            app.UseHangfireServer();
+            //app.UseHangfireDashboard();
+            app.UseHangfireDashboard("/hangfire", new DashboardOptions
+            {
+                Authorization = new[]
+                {
+                    new HangfireAuthorization()
+                }
+            });
 
+            MyAppBackgroundJob.RegisterBackgroundJobs();
 
 
             // Enable middleware to serve generated Swagger as a JSON endpoint

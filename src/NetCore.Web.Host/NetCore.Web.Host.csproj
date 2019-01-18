@@ -30,6 +30,7 @@
   <ItemGroup>
     <PackageReference Include="Abp.HangFire.AspNetCore" Version="4.1.0" />
     <PackageReference Include="Abp.MailKit" Version="4.1.0" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.6.21" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.6">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
