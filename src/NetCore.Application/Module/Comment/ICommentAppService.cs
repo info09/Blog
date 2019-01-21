@@ -20,5 +20,7 @@ namespace NetCore.Module.Comment
         Task Update(CommentUpdate input);
 
         Task Delete(int id);
+
+        //void Assign();
     }
 }
