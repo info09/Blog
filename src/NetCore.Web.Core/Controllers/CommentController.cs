@@ -37,7 +37,14 @@ namespace NetCore.Controllers
         public IActionResult GetByPostId(int id)
         {
             var cmt = _commentAppService.GetByPostId(id);
-            return Ok(cmt);
+            if (cmt == null)
+            {
+                throw new Exception("Không tồn tại Id= " + id + " trong bảng comment");
+            }
+            else
+            {
+                return Ok(cmt);
+            }
         }
 
         [HttpPost, Route("Create")]
