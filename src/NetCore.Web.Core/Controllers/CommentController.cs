@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace NetCore.Controllers
 {
     [Route("api/Comment")]
-    public class CommentController:NetCoreControllerBase
+    public class CommentController : NetCoreControllerBase
     {
         private readonly ICommentAppService _commentAppService;
 
@@ -26,22 +26,21 @@ namespace NetCore.Controllers
             return Ok(cmt);
         }
 
-        [HttpGet]
-        [Route("GetById")]
-        public async Task<IActionResult> GetById(int id)
+        [HttpGet, Route("GetById")]
+        public IActionResult GetById(int id)
         {
-            var cmt = await _commentAppService.GetById(id);
+            var cmt = _commentAppService.GetById(id);
             return Ok(cmt);
         }
 
-        [HttpGet,Route("GetByPostId")]
+        [HttpGet, Route("GetByPostId")]
         public IActionResult GetByPostId(int id)
         {
             var cmt = _commentAppService.GetByPostId(id);
             return Ok(cmt);
         }
 
-        [HttpPost,Route("Create")]
+        [HttpPost, Route("Create")]
         public IActionResult Create([FromBody]CommentCreate input)
         {
             var cmt = _commentAppService.Create(input);
@@ -51,15 +50,30 @@ namespace NetCore.Controllers
         [HttpPut, Route("Update")]
         public IActionResult Update([FromBody]CommentUpdate input)
         {
-            var cmt = _commentAppService.Update(input);
-            return Ok();
+            var a = _commentAppService.GetById(input.Id);
+            if (a == null)
+            {
+                throw new Exception("Không tồn tại comment để update");
+            }
+            else
+            {
+                var cmt = _commentAppService.Update(input);
+                return Ok();
+            }
         }
 
-        [HttpDelete,Route("Delete")]
+        [HttpDelete, Route("Delete")]
         public IActionResult Delte(int id)
         {
-            var cmt = _commentAppService.Delete(id);
-            return Ok();
+            if (_commentAppService.GetById(id) == null)
+            {
+                throw new Exception("Không tồn tại Id");
+            }
+            else
+            {
+                var cmt = _commentAppService.Delete(id);
+                return Ok();
+            }
         }
     }
 }

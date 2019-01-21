@@ -5,7 +5,7 @@ using System.Text;
 
 namespace NetCore.Module.Comment.Hangfire
 {
-    //public class TestEmail:BackgroundJob<int>
+    //public class TestEmail : BackgroundJob<int>
     //{
     //    private readonly ICommentAppService _commentAppService;
 

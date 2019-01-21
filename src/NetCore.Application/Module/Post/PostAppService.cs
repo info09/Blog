@@ -1,6 +1,7 @@
 ﻿using Abp.Application.Services;
 using Abp.AutoMapper;
 using Abp.Domain.Repositories;
+using Abp.UI;
 using Microsoft.EntityFrameworkCore;
 using NetCore.Module.Post.Dto;
 using System;
@@ -15,10 +16,12 @@ namespace NetCore.Module.Post
     public class PostAppService : ApplicationService, IPostAppService
     {
         private readonly IRepository<Models.Post> _postRepository;
+        private readonly IRepository<Models.Comment> _commentRepository;
 
-        public PostAppService(IRepository<Models.Post> postRepository)
+        public PostAppService(IRepository<Models.Post> postRepository, IRepository<Models.Comment> commentRepository)
         {
             this._postRepository = postRepository;
+            this._commentRepository = commentRepository;
         }
 
         public async Task Create(PostCreate input)
@@ -46,7 +49,7 @@ namespace NetCore.Module.Post
                 posts = posts.Where(i => i.Title.Contains(filter.Search));
             }
 
-            var output = posts.Include(i=>i.Comments).Skip(filter.pageSize.Value * (filter.pageNum.Value - 1)).Take(filter.pageSize.Value);
+            var output = posts.Include(i => i.Comments).Skip(filter.pageSize.Value * (filter.pageNum.Value - 1)).Take(filter.pageSize.Value);
             return output.MapTo<List<PostDto>>();
         }
 
@@ -56,9 +59,9 @@ namespace NetCore.Module.Post
             return post.MapTo<List<PostDto>>();
         }
 
-        public async Task<PostDto> GetById(int id)
+        public PostDto GetById(int id)
         {
-            var post = await _postRepository.GetAll().Include(i => i.Comments).FirstOrDefaultAsync(i => i.Id == id);
+            var post = _postRepository.GetAll().Include(i => i.Comments).FirstOrDefault(i => i.Id == id);
             return post.MapTo<PostDto>();
         }
 

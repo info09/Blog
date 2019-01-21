@@ -11,7 +11,7 @@ namespace NetCore.Module.Comment
     {
         List<CommentDto> GetAll(CommentFilter filter);
 
-        Task<CommentDto> GetById(int id);
+        CommentDto GetById(int id);
 
         List<CommentDto> GetByPostId(int id);
 

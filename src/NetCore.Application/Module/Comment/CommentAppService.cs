@@ -19,7 +19,7 @@ namespace NetCore.Module.Comment
         public IEventBus eventBus;
         //private readonly IEmailSender _emailSender;
 
-        public CommentAppService(IRepository<Models.Comment> commentRepository/*,IEmailSender emailSender*/)
+        public CommentAppService(IRepository<Models.Comment> commentRepository/*, IEmailSender emailSender*/)
         {
             this._commentRepository = commentRepository;
             eventBus = NullEventBus.Instance;
@@ -29,11 +29,11 @@ namespace NetCore.Module.Comment
         //public void Assign()
         //{
         //    _emailSender.Send(
-        //        to:"langtoi0409@gmail.com",
-        //        body:$"demo",
-        //        from:"huytq3103@gmail.com",
-        //        isBodyHtml:true,
-        //        subject:"test"
+        //        to: "langtoi0409@gmail.com",
+        //        body: $"demo",
+        //        from: "huytq3103@gmail.com",
+        //        isBodyHtml: true,
+        //        subject: "test"
         //    );
         //}
 
@@ -68,9 +68,9 @@ namespace NetCore.Module.Comment
             return output.MapTo<List<CommentDto>>();
         }
 
-        public async Task<CommentDto> GetById(int id)
+        public CommentDto GetById(int id)
         {
-            var comment = await _commentRepository.FirstOrDefaultAsync(id);
+            var comment = _commentRepository.FirstOrDefault(id);
             return comment.MapTo<CommentDto>();
         }
 

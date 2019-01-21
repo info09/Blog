@@ -18,11 +18,11 @@ namespace MyApp.BackgroundJobs
 			var postService = IocManager.Instance.Resolve<IPostAppService>();
             //var commentService = IocManager.Instance.Resolve<ICommentAppService>();
 
-			//3 giờ 1 lần
-			RecurringJob.AddOrUpdate("TestJob", ()
+            //3 giờ 1 lần
+            RecurringJob.AddOrUpdate("TestJob", ()
 				=> (new TestJob(postService)).Execute(0), "*/1 * * * *", TimeZoneInfo.Local);
 
             //RecurringJob.AddOrUpdate("TestEmail", () => (new TestEmail(commentService)).Execute(0), "* * * * *", TimeZoneInfo.Local);
-		}
+        }
 	}
 }
