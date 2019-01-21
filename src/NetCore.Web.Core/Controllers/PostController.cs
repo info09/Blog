@@ -33,7 +33,14 @@ namespace NetCore.Controllers
         public IActionResult GetById(int id)
         {
             var post = _postAppService.GetById(id);
-            return Ok(post);
+            if (post == null)
+            {
+                throw new Exception("Không tồn tại id= " + id + " trong cơ sở dữ liệu");
+            }
+            else
+            {
+                return Ok(post);
+            }
         }
 
         [HttpPost, Route("Create")]
@@ -56,7 +63,7 @@ namespace NetCore.Controllers
                 var post = _postAppService.Update(input);
                 return Ok("Thành công");
             }
-            
+
         }
 
         [HttpDelete, Route("Delete")]
