@@ -12929,3 +12929,377 @@ INFO  2019-01-21 17:12:27,231 [11   ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2019-01-21 17:12:27,241 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
 INFO  2019-01-21 17:12:27,246 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host) in 521.895ms
 INFO  2019-01-21 17:12:27,251 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2310.6985ms 500 application/json; charset=utf-8
+DEBUG 2019-01-22 00:01:27,982 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-22 00:01:28,290 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-22 00:01:28,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.Web.Host.Startup.NetCoreWebHostModule, NetCore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreWebCoreModule, NetCore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreApplicationModule, NetCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreCoreModule, NetCore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.EntityFrameworkCore.NetCoreEntityFrameworkModule, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:28,337 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-22 00:01:28,497 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-22 00:01:28,497 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-22 00:01:28,497 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-22 00:01:28,497 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-22 00:01:29,059 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCore.EntityFrameworkCore.NetCoreDbContext, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:01:31,283 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-22 00:01:31,349 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-22 00:01:31,365 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-22 00:01:31,373 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCore
+DEBUG 2019-01-22 00:01:31,383 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-22 00:01:31,933 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-22 00:01:32,045 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2019-01-22 00:01:32,045 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-22 00:01:32,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.CreateUserDto
+DEBUG 2019-01-22 00:01:32,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.UserDto
+DEBUG 2019-01-22 00:01:32,064 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-22 00:01:32,065 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-22 00:01:32,065 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-22 00:01:32,065 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.PermissionDto
+DEBUG 2019-01-22 00:01:32,065 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.RoleDto
+DEBUG 2019-01-22 00:01:32,067 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-22 00:01:32,067 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-22 00:01:32,067 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostCreate
+DEBUG 2019-01-22 00:01:32,067 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostDto
+DEBUG 2019-01-22 00:01:32,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostUpdate
+DEBUG 2019-01-22 00:01:32,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentCreate
+DEBUG 2019-01-22 00:01:32,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentDto
+DEBUG 2019-01-22 00:01:32,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentUpdate
+INFO  2019-01-22 00:01:39,261 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Start installing Hangfire SQL objects...
+INFO  2019-01-22 00:01:39,351 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Hangfire SQL objects installed.
+INFO  2019-01-22 00:01:39,382 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-01-22 00:01:39,391 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: ADMIN\SQLEXPRESS@BlogDb'
+INFO  2019-01-22 00:01:39,396 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-01-22 00:01:39,400 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-01-22 00:01:39,405 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-01-22 00:01:39,411 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-01-22 00:01:39,416 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-01-22 00:01:39,420 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-01-22 00:01:39,423 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+INFO  2019-01-22 00:01:41,201 [chdog] Hangfire.Server.ServerWatchdog           - 1 servers were removed due to timeout
+INFO  2019-01-22 00:01:51,078 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-01-22 00:01:51,084 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-01-22 00:01:51,089 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-22 00:01:51,093 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-22 00:01:51,315 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 239.7594ms 200 
+INFO  2019-01-22 00:01:52,366 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1248.0483ms 200 text/html
+INFO  2019-01-22 00:01:52,407 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1251.4507ms 200 text/html
+INFO  2019-01-22 00:01:52,477 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-01-22 00:01:52,567 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-01-22 00:01:52,610 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-01-22 00:01:52,664 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-01-22 00:01:52,706 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-01-22 00:01:52,730 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-01-22 00:01:52,746 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2019-01-22 00:01:52,756 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-01-22 00:01:52,762 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 183.4546ms 304 text/css
+INFO  2019-01-22 00:01:52,769 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 282.08ms 304 application/javascript
+INFO  2019-01-22 00:01:52,777 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 290.1744ms 304 application/javascript
+INFO  2019-01-22 00:01:52,783 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-01-22 00:01:52,800 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 300.9909ms 304 application/javascript
+INFO  2019-01-22 00:01:52,888 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2019-01-22 00:01:52,966 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 119.199ms 304 application/javascript
+WARN  2019-01-22 00:01:52,973 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection processing ended abnormally.
+Microsoft.AspNetCore.Connections.ConnectionAbortedException: The connection was aborted
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+ERROR 2019-01-22 00:01:53,074 [7    ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.<>c.<Build>b__16_0(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+WARN  2019-01-22 00:01:53,086 [7    ] e.Diagnostics.ExceptionHandlerMiddleware - The response has already started, the error handler will not be executed.
+ERROR 2019-01-22 00:01:53,121 [7    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLJVO8HFJQB6", Request id "0HLJVO8HFJQB6:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.<>c.<Build>b__16_0(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-01-22 00:01:53,134 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2059.5617ms 404 text/plain
+INFO  2019-01-22 00:01:53,304 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-01-22 00:01:53,676 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-22 00:01:54,393 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1082.5855ms 200 application/json;charset=utf-8
+INFO  2019-01-22 00:02:07,969 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Comment/GetById?id=100  
+INFO  2019-01-22 00:02:07,982 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-22 00:02:08,137 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetById", controller = "Comment"}. Executing action NetCore.Controllers.CommentController.GetById (NetCore.Web.Core)
+INFO  2019-01-22 00:02:09,381 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCore.Controllers.CommentController.GetById (NetCore.Web.Core) with arguments (100) - Validation state: Valid
+INFO  2019-01-22 00:02:25,736 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method NetCore.Controllers.CommentController.GetById (NetCore.Web.Core), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 16345.4804ms.
+INFO  2019-01-22 00:02:25,884 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-22 00:02:25,934 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCore.Controllers.CommentController.GetById (NetCore.Web.Core) in 17786.1162ms
+INFO  2019-01-22 00:02:25,953 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17977.0857ms 200 application/json; charset=utf-8
+INFO  2019-01-22 00:02:36,951 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Comment/GetById?id=100  
+INFO  2019-01-22 00:02:36,968 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetById", controller = "Comment"}. Executing action NetCore.Controllers.CommentController.GetById (NetCore.Web.Core)
+INFO  2019-01-22 00:02:36,986 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCore.Controllers.CommentController.GetById (NetCore.Web.Core) with arguments (100) - Validation state: Valid
+INFO  2019-01-22 00:02:39,189 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method NetCore.Controllers.CommentController.GetById (NetCore.Web.Core), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2197.4207ms.
+INFO  2019-01-22 00:02:39,206 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-22 00:02:39,215 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCore.Controllers.CommentController.GetById (NetCore.Web.Core) in 2238.8483ms
+INFO  2019-01-22 00:02:39,221 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2270.0416ms 200 application/json; charset=utf-8
+INFO  2019-01-22 00:02:39,334 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2019-01-22 00:02:39,346 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.1092ms 404 text/plain
+DEBUG 2019-01-22 00:04:08,339 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-01-22 00:04:08,490 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-01-22 00:04:08,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.Web.Host.Startup.NetCoreWebHostModule, NetCore.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreWebCoreModule, NetCore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreApplicationModule, NetCore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.NetCoreCoreModule, NetCore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,531 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,531 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,532 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCore.EntityFrameworkCore.NetCoreEntityFrameworkModule, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,533 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,533 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,533 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,535 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:08,541 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-01-22 00:04:08,662 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-22 00:04:08,662 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-22 00:04:08,662 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-22 00:04:08,662 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-01-22 00:04:09,169 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCore.EntityFrameworkCore.NetCoreDbContext, NetCore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-01-22 00:04:11,255 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-01-22 00:04:11,305 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-01-22 00:04:11,320 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-01-22 00:04:11,326 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCore
+DEBUG 2019-01-22 00:04:11,331 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-01-22 00:04:11,798 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-01-22 00:04:11,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2019-01-22 00:04:11,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-01-22 00:04:11,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.CreateUserDto
+DEBUG 2019-01-22 00:04:11,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Users.Dto.UserDto
+DEBUG 2019-01-22 00:04:11,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-01-22 00:04:11,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-01-22 00:04:11,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.CreateRoleDto
+DEBUG 2019-01-22 00:04:11,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.PermissionDto
+DEBUG 2019-01-22 00:04:11,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Roles.Dto.RoleDto
+DEBUG 2019-01-22 00:04:11,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-01-22 00:04:11,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.MultiTenancy.Dto.TenantDto
+DEBUG 2019-01-22 00:04:11,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostCreate
+DEBUG 2019-01-22 00:04:11,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostDto
+DEBUG 2019-01-22 00:04:11,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Post.Dto.PostUpdate
+DEBUG 2019-01-22 00:04:11,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentCreate
+DEBUG 2019-01-22 00:04:11,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentDto
+DEBUG 2019-01-22 00:04:11,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCore.Module.Comment.Dto.CommentUpdate
+INFO  2019-01-22 00:04:18,556 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Start installing Hangfire SQL objects...
+INFO  2019-01-22 00:04:18,637 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Hangfire SQL objects installed.
+INFO  2019-01-22 00:04:18,667 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-01-22 00:04:18,679 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: ADMIN\SQLEXPRESS@BlogDb'
+INFO  2019-01-22 00:04:18,684 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-01-22 00:04:18,688 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-01-22 00:04:18,693 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-01-22 00:04:18,698 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-01-22 00:04:18,704 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-01-22 00:04:18,708 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-01-22 00:04:18,715 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+INFO  2019-01-22 00:04:31,361 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-22 00:04:31,369 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-01-22 00:04:31,375 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-01-22 00:04:31,384 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-01-22 00:04:31,664 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 362.6586ms 200 
+INFO  2019-01-22 00:04:32,504 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1215.1298ms 200 text/html
+INFO  2019-01-22 00:04:32,527 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1222.0083ms 200 text/html
+INFO  2019-01-22 00:04:32,539 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-01-22 00:04:32,547 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-01-22 00:04:32,552 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-01-22 00:04:32,651 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-01-22 00:04:32,656 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-01-22 00:04:32,661 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-01-22 00:04:32,694 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.175ms 304 application/javascript
+INFO  2019-01-22 00:04:32,711 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.1829ms 304 application/javascript
+INFO  2019-01-22 00:04:32,729 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.1829ms 304 text/css
+ERROR 2019-01-22 00:04:32,839 [7    ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.<>c.<Build>b__16_0(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+WARN  2019-01-22 00:04:32,853 [7    ] e.Diagnostics.ExceptionHandlerMiddleware - The response has already started, the error handler will not be executed.
+ERROR 2019-01-22 00:04:32,890 [7    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLJVOA166L8L", Request id "0HLJVOA166L8L:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder.<>c.<Build>b__16_0(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIIndexMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-01-22 00:04:32,911 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1641.3255ms 404 text/plain
+INFO  2019-01-22 00:04:33,095 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-01-22 00:04:33,323 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-22 00:04:33,726 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 625.7177ms 200 application/json;charset=utf-8
+INFO  2019-01-22 00:05:15,105 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Comment/GetById?id=100  
+INFO  2019-01-22 00:05:15,112 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-01-22 00:05:15,263 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetById", controller = "Comment"}. Executing action NetCore.Controllers.CommentController.GetById (NetCore.Web.Core)
+INFO  2019-01-22 00:05:16,436 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCore.Controllers.CommentController.GetById (NetCore.Web.Core) with arguments (100) - Validation state: Valid
+ERROR 2019-01-22 00:05:28,090 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - Không có Id=100 trong cơ sở dữ liệu
+System.Exception: Không có Id=100 trong cơ sở dữ liệu
+   at NetCore.Controllers.CommentController.GetById(Int32 id) in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Core\Controllers\CommentController.cs:line 38
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-01-22 00:05:28,110 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCore.Controllers.CommentController.GetById (NetCore.Web.Core) in 12836.2125ms
+ERROR 2019-01-22 00:05:28,274 [6    ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.Exception: Không có Id=100 trong cơ sở dữ liệu
+   at NetCore.Controllers.CommentController.GetById(Int32 id) in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Core\Controllers\CommentController.cs:line 38
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+INFO  2019-01-22 00:05:28,291 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Error"}. Executing action MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host)
+INFO  2019-01-22 00:05:28,299 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host) - Validation state: Valid
+INFO  2019-01-22 00:05:28,951 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 644.3104ms.
+INFO  2019-01-22 00:05:29,024 [44   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-22 00:05:29,075 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host) in 779.6095ms
+INFO  2019-01-22 00:05:29,084 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13976.8996ms 500 application/json; charset=utf-8
+INFO  2019-01-22 00:05:42,522 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/Comment/GetById?id=100  
+INFO  2019-01-22 00:05:42,558 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetById", controller = "Comment"}. Executing action NetCore.Controllers.CommentController.GetById (NetCore.Web.Core)
+INFO  2019-01-22 00:05:42,573 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCore.Controllers.CommentController.GetById (NetCore.Web.Core) with arguments (100) - Validation state: Valid
+ERROR 2019-01-22 00:05:45,843 [44   ] Mvc.ExceptionHandling.AbpExceptionFilter - Không có Id=100 trong cơ sở dữ liệu
+System.Exception: Không có Id=100 trong cơ sở dữ liệu
+   at NetCore.Controllers.CommentController.GetById(Int32 id) in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Core\Controllers\CommentController.cs:line 38
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-01-22 00:05:45,850 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCore.Controllers.CommentController.GetById (NetCore.Web.Core) in 3286.6674ms
+ERROR 2019-01-22 00:05:46,005 [44   ] e.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request.
+System.Exception: Không có Id=100 trong cơ sở dữ liệu
+   at NetCore.Controllers.CommentController.GetById(Int32 id) in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Core\Controllers\CommentController.cs:line 38
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at NetCore.Web.Host.Startup.Startup.<>c.<<Configure>b__4_1>d.MoveNext() in C:\Users\Admin\Desktop\Project Training\Blog\src\NetCore.Web.Host\Startup\Startup.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+INFO  2019-01-22 00:05:46,015 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Error"}. Executing action MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host)
+INFO  2019-01-22 00:05:46,021 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host) - Validation state: Valid
+INFO  2019-01-22 00:05:46,479 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 451.0082ms.
+INFO  2019-01-22 00:05:46,498 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-01-22 00:05:46,508 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyApp.Web.Host.Controllers.ErrorController.Index (NetCore.Web.Host) in 483.4635ms
+INFO  2019-01-22 00:05:46,521 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4007.618ms 500 application/json; charset=utf-8
+INFO  2019-01-22 00:05:46,632 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2019-01-22 00:05:46,653 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.8651ms 404 text/plain
