@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Abp.AutoMapper;
 using Abp.Domain.Repositories;
 using Abp.Events.Bus;
+using Abp.Net.Mail;
 using NetCore.Module.Comment.Dto;
 using NetCore.Module.Comment.Event;
 
@@ -16,12 +17,25 @@ namespace NetCore.Module.Comment
     {
         private readonly IRepository<Models.Comment> _commentRepository;
         public IEventBus eventBus;
+        //private readonly IEmailSender _emailSender;
 
-        public CommentAppService(IRepository<Models.Comment> commentRepository)
+        public CommentAppService(IRepository<Models.Comment> commentRepository/*, IEmailSender emailSender*/)
         {
             this._commentRepository = commentRepository;
             eventBus = NullEventBus.Instance;
+            //this._emailSender = emailSender;
         }
+
+        //public void Assign()
+        //{
+        //    _emailSender.Send(
+        //        to: "langtoi0409@gmail.com",
+        //        body: $"demo",
+        //        from: "huytq3103@gmail.com",
+        //        isBodyHtml: true,
+        //        subject: "test"
+        //    );
+        //}
 
         public async Task Create(CommentCreate input)
         {
@@ -54,9 +68,9 @@ namespace NetCore.Module.Comment
             return output.MapTo<List<CommentDto>>();
         }
 
-        public async Task<CommentDto> GetById(int id)
+        public CommentDto GetById(int id)
         {
-            var comment = await _commentRepository.FirstOrDefaultAsync(id);
+            var comment = _commentRepository.FirstOrDefault(id);
             return comment.MapTo<CommentDto>();
         }
 

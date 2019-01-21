@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Abp.Castle.Log4Net" Version="4.0.1" />
+    <PackageReference Include="Abp.MailKit" Version="4.1.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NetCore.Core\NetCore.Core.csproj" />

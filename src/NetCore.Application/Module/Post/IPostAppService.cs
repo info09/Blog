@@ -13,7 +13,7 @@ namespace NetCore.Module.Post
 
         List<PostDto> GetAll();
 
-        Task<PostDto> GetById(int id);
+        PostDto GetById(int id);
 
         Task Create(PostCreate input);
 

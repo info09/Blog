@@ -11,6 +11,9 @@
     <RootNamespace>NetCore</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Abp.MailKit" Version="4.1.0" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\NetCore.Core\NetCore.Core.csproj" />
   </ItemGroup>
 </Project>

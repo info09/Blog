@@ -12,6 +12,7 @@ using Abp.Zero.Configuration;
 using NetCore.Authentication.JwtBearer;
 using NetCore.Configuration;
 using NetCore.EntityFrameworkCore;
+using Abp.MailKit;
 
 namespace NetCore
 {
@@ -40,6 +41,7 @@ namespace NetCore
 
             // Use database for language management
             Configuration.Modules.Zero().LanguageManagement.EnableDbLocalization();
+
 
             //Configuration.Modules.AbpAspNetCore()
             //     .CreateControllersForAppServices(
