@@ -30,7 +30,14 @@ namespace NetCore.Controllers
         public IActionResult GetById(int id)
         {
             var cmt = _commentAppService.GetById(id);
-            return Ok(cmt);
+            if (cmt == null)
+            {
+                throw new Exception("Không có Id=" + id + " trong cơ sở dữ liệu");
+            }
+            else
+            {
+                return Ok(cmt);
+            }
         }
 
         [HttpGet, Route("GetByPostId")]
